@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "whatsapp.png",
+      "default_title": "DarkWhatsapp"
+   },
+   "content_scripts": [ {
+      "js": [ "background.js" ],
+      "matches": [ "https://web.whatsapp.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Whatsapp Dark Theme",
+   "icons": {
+      "128": "whatsapp.png"
+   },
+   "manifest_version": 2,
+   "name": "DarkWhatsapp",
+   "permissions": [ "activeTab" ],
+   "version": "1.0.8",
+   "web_accessible_resources": [ "css_dark.css" ]
+}
