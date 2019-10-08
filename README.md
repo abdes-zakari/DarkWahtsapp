@@ -1,7 +1,9 @@
 # DarkWahtsapp
 Whatsapp Dark Theme extension for chrome 
 
-![alt text](https://raw.githubusercontent.com/abdes-zakari/DarkWahtsapp/master/imgs/ww5.PNG)
+### Homdsd 
 
-![alt text](https://raw.githubusercontent.com/abdes-zakari/DarkWahtsapp/master/imgs/ww8.PNG)
+<img src="https://raw.githubusercontent.com/abdes-zakari/DarkWahtsapp/master/imgs/ww5.PNG" width="900" height="500">
 
+### Chat
+<img src="https://raw.githubusercontent.com/abdes-zakari/DarkWahtsapp/master/imgs/ww8.PNG" width="900" height="500">
