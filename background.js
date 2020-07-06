@@ -12,16 +12,4 @@ window.addEventListener('DOMNodeRemoved', function() {
     head.appendChild(link);
   }
 
-
-  if (document.getElementById('testJs') == null) {
-    var body = document.getElementsByTagName('body')[0],
-      link = document.createElement('link');
-
-    link.id     = 'testJs';
-    link.type   = 'text/javascript';
-    link.href   = chrome.extension.getURL('test.js');
-    link.media  = 'all';
-
-    body.appendChild(link);
-  }
 });
